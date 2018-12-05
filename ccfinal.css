@@ -1,0 +1,40 @@
+wrapper {
+    margin: 0 auto;
+    padding: 8000px;
+    width: 850px;
+}
+
+.door1 {
+    width: 600px;
+    height: 574px;
+    background-color: white;
+    float: left;
+    position: inherit;
+    margin: 600px;
+    bottom: auto;
+    left: 9000px;}
+
+.door2 {
+    width: 526px;
+    height: 386px;
+    background-color: white;
+    float: left;
+    position: inherit;
+    top: 20px
+    margin: 600px;
+  }
+
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes mymove {
+    0%   {right: 0px; width: 100px;}
+    100% {right: 600px; width: 1500px;}
+}
+
+/* Standard syntax */
+@keyframes mymove {
+    0%   {right: 0px; width: 100px;}
+    100% {right: 600px; width: 1500px;}
+
+
+}

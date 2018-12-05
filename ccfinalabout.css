@@ -1,0 +1,22 @@
+.alpha {
+  font-family: sheepman;
+  outline-style: groove;
+  z-index: auto;
+  border: 200px;
+  font-weight: 300px;
+  flex-direction: column;
+  position: inherit;
+  background-color: white;
+}
+
+.bravo {font-family: sheepman;
+  font-weight: 400;
+  position: absolute;
+  background-color: white;
+  border-radius: 30px
+}
+
+.color {
+  background-color: green;
+
+   }
